@@ -14,6 +14,7 @@ class New{
 		return length * breadth;
 	}
 }
+
 class Main{
 	public static void main(String args[]){
 		New rect = new New(2,5);
