@@ -16,9 +16,10 @@ class New{
 }
 class Main{
 	public static void main(String args[]){
-		New rect = new New(2,5);
-		New rect1 = new New(4);
-		System.out.println("Area is "+rect.findArea());
+		New rect1 = new New(5,10);
+		New rect2 = new New(2);
+		
 		System.out.println("Area is "+rect1.findArea());
+		System.out.println("Area is "+rect2.findArea());
 	}
 }
